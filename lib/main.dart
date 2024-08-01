@@ -158,38 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         const SizedBox(
                             height:
                                 16), // Adiciona um espaço vertical de 16 pixels
-                        const TextField(
-                          obscureText:
-                              true, // Oculta o texto digitado (usado para senhas)
-                          decoration: InputDecoration(
-                            labelText: 'Senha', // Texto do rótulo (label)
-                            labelStyle: TextStyle(
-                                color: Colors
-                                    .white), // Define a cor do texto do rótulo
-                            prefixIcon: Icon(
-                              Icons.lock,
-                              color: Colors.white, // Define a cor do ícone
-                            ),
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.all(Radius.circular(
-                                  30.0)), // Define bordas arredondadas com raio de 30 pixels
-                            ),
-                            enabledBorder: OutlineInputBorder(
-                              borderSide: BorderSide(
-                                  color: Colors
-                                      .white), // Define a cor da borda quando habilitado
-                              borderRadius: BorderRadius.all(Radius.circular(
-                                  30.0)), // Define bordas arredondadas com raio de 30 pixels
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderSide: BorderSide(
-                                  color: Colors
-                                      .white), // Define a cor da borda quando focado
-                              borderRadius: BorderRadius.all(Radius.circular(
-                                  30.0)), // Define bordas arredondadas com raio de 30 pixels
-                            ),
-                          ),
-                        ),
+
                         const SizedBox(
                             height:
                                 16), // Adiciona um espaço vertical de 16 pixels
